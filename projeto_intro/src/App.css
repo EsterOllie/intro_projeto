@@ -1,0 +1,61 @@
+*{
+  box-sizing : border-box;
+  margin : 0;
+  padding: 0;
+}
+header{
+  display : flex;
+  justify-content: space-evenly;
+  background-color : #eacc8f;
+  
+}
+img{
+  width: 10%;
+  border-radius : 50%;
+}
+nav{
+  width : 50%;
+}
+ul{
+  display : flex;
+  justify-content:space-evenly;
+  padding-top : 2rem;
+  list-style: none;
+  font-size :  1.5rem;
+}
+div{
+  display : flex;
+  flex-direction: column;
+}
+form{
+  display : flex;
+  flex-direction: column;
+}
+label{
+  font-size : 1.5rem;
+}
+main{
+  display : flex;
+  justify-content: space-evenly;
+  margin : 2rem;
+}
+main section{
+  border : double 1rem #eacc8f;
+  width : 15rem;
+  height: 15rem;
+  display : flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left : 1.5rem;
+}
+#relax{
+  width: 8rem;
+}
+main button{
+  border-radius: 20%;
+  background-color: #d0a34a;
+  width : 5rem;
+}
+main h2{
+  color : #d0a34a;
+}
